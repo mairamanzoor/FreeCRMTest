@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite_Runner" class="navigator-link">
+              <span class="suite-name border-passed">Suite Runner</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite_Runner" class="navigator-link ">
+                    <span>C:\QA\Selenium_Workplace\FreeCRMTest\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite_Runner" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite_Runner" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite_Runner" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite_Runner" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite_Runner" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite_Runner" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite_Runner" class="hide-methods passed suite-Suite_Runner"> (hide)</a> <!-- hide-methods passed suite-Suite_Runner -->
+                      <a href="#" panel-name="suite-Suite_Runner" class="show-methods passed suite-Suite_Runner"> (show)</a> <!-- show-methods passed suite-Suite_Runner -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite_Runner">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_Runner" title="com.crm.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LgnPageTitleTest">LgnPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_Runner" title="com.crm.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LgnPagelogoTest">LgnPagelogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_Runner" title="com.crm.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="LoginTest">LoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_Runner" title="com.crm.qa.testcases.ContactPageTest" class="method navigator-link" hash-for-method="ValidateContactPageText">ValidateContactPageText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_Runner" title="com.crm.qa.testcases.ContactPageTest" class="method navigator-link" hash-for-method="ValidateContactPageTitleTest">ValidateContactPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_Runner" title="com.crm.qa.testcases.ContactPageTest" class="method navigator-link" hash-for-method="ValidateContactPageUrlTest">ValidateContactPageUrlTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_Runner" title="com.crm.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="VerifyCorrectUserNameTest">VerifyCorrectUserNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_Runner" title="com.crm.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="VerifyTitlePageTest">VerifyTitlePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_Runner" title="com.crm.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="verifyContactsLinkTest">verifyContactsLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_Runner" title="com.crm.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="verifyDealsLinkTest">verifyDealsLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_Runner" title="com.crm.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="verifyStoreLinkTest">verifyStoreLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite_Runner -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite_Runner" class="panel Suite_Runner">
+          <div class="suite-Suite_Runner-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crm.qa.testcases.ContactPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateContactPageText">
+                  </a> <!-- ValidateContactPageText -->
+                  <span class="method-name">ValidateContactPageText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateContactPageTitleTest">
+                  </a> <!-- ValidateContactPageTitleTest -->
+                  <span class="method-name">ValidateContactPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateContactPageUrlTest">
+                  </a> <!-- ValidateContactPageUrlTest -->
+                  <span class="method-name">ValidateContactPageUrlTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_Runner-class-passed -->
+          <div class="suite-Suite_Runner-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crm.qa.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LgnPageTitleTest">
+                  </a> <!-- LgnPageTitleTest -->
+                  <span class="method-name">LgnPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LgnPagelogoTest">
+                  </a> <!-- LgnPagelogoTest -->
+                  <span class="method-name">LgnPagelogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTest">
+                  </a> <!-- LoginTest -->
+                  <span class="method-name">LoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_Runner-class-passed -->
+          <div class="suite-Suite_Runner-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crm.qa.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCorrectUserNameTest">
+                  </a> <!-- VerifyCorrectUserNameTest -->
+                  <span class="method-name">VerifyCorrectUserNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTitlePageTest">
+                  </a> <!-- VerifyTitlePageTest -->
+                  <span class="method-name">VerifyTitlePageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContactsLinkTest">
+                  </a> <!-- verifyContactsLinkTest -->
+                  <span class="method-name">verifyContactsLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDealsLinkTest">
+                  </a> <!-- verifyDealsLinkTest -->
+                  <span class="method-name">verifyDealsLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStoreLinkTest">
+                  </a> <!-- verifyStoreLinkTest -->
+                  <span class="method-name">verifyStoreLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_Runner-class-passed -->
+        </div> <!-- panel Suite_Runner -->
+        <div panel-name="test-xml-Suite_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\QA\Selenium_Workplace\FreeCRMTest\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite Runner&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.crm.qa.ExtentReportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test Panasonic&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.crm.qa.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.crm.qa.testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.crm.qa.testcases.ContactPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Panasonic --&gt;
+&lt;/suite&gt; &lt;!-- Suite Runner --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite Runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test Panasonic (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite Runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite Runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_Runner');
+function tableData_Suite_Runner() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'LoginTest')
+data.setCell(0, 2, 'com.crm.qa.testcases.LoginPageTest')
+data.setCell(0, 3, 5739);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyDealsLinkTest')
+data.setCell(1, 2, 'com.crm.qa.testcases.HomePageTest')
+data.setCell(1, 3, 4210);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyTitlePageTest')
+data.setCell(2, 2, 'com.crm.qa.testcases.HomePageTest')
+data.setCell(2, 3, 4027);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyContactsLinkTest')
+data.setCell(3, 2, 'com.crm.qa.testcases.HomePageTest')
+data.setCell(3, 3, 2553);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyStoreLinkTest')
+data.setCell(4, 2, 'com.crm.qa.testcases.HomePageTest')
+data.setCell(4, 3, 361);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LgnPagelogoTest')
+data.setCell(5, 2, 'com.crm.qa.testcases.LoginPageTest')
+data.setCell(5, 3, 166);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ValidateContactPageText')
+data.setCell(6, 2, 'com.crm.qa.testcases.ContactPageTest')
+data.setCell(6, 3, 151);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyCorrectUserNameTest')
+data.setCell(7, 2, 'com.crm.qa.testcases.HomePageTest')
+data.setCell(7, 3, 110);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ValidateContactPageUrlTest')
+data.setCell(8, 2, 'com.crm.qa.testcases.ContactPageTest')
+data.setCell(8, 3, 79);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ValidateContactPageTitleTest')
+data.setCell(9, 2, 'com.crm.qa.testcases.ContactPageTest')
+data.setCell(9, 3, 73);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'LgnPageTitleTest')
+data.setCell(10, 2, 'com.crm.qa.testcases.LoginPageTest')
+data.setCell(10, 3, 48);
+window.suiteTableData['Suite_Runner']= { tableData: data, tableDiv: 'times-div-Suite_Runner'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <div id="times-div-Suite_Runner">
+              </div> <!-- times-div-Suite_Runner -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite Runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LgnPageTitleTest</span>
+                <span class="method-start">5736 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">5793 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">6680 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LgnPagelogoTest</span>
+                <span class="method-start">10709 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">10876 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">11742 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginTest</span>
+                <span class="method-start">15745 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">21487 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">22358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyTitlePageTest</span>
+                <span class="method-start">31915 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">35948 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">36850 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyCorrectUserNameTest</span>
+                <span class="method-start">46679 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">46793 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">47663 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyContactsLinkTest</span>
+                <span class="method-start">57441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">59997 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">60815 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDealsLinkTest</span>
+                <span class="method-start">70202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">74413 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">75376 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyStoreLinkTest</span>
+                <span class="method-start">85026 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">85390 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.testcases.ContactPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">86234 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateContactPageText</span>
+                <span class="method-start">93482 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">93636 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">94577 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateContactPageTitleTest</span>
+                <span class="method-start">101736 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">101811 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">102635 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateContactPageUrlTest</span>
+                <span class="method-start">109422 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">109503 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

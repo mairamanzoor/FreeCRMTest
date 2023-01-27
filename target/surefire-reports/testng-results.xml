@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="13" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-25T23:07:47 EST" name="Surefire suite" finished-at="2023-01-25T23:09:51 EST" duration-ms="124531">
+    <groups>
+    </groups>
+    <test started-at="2023-01-25T23:07:47 EST" name="Surefire test" finished-at="2023-01-25T23:09:51 EST" duration-ms="124531">
+      <class name="com.crm.qa.testcases.ContactPageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.ContactPageTest@7d3a22a9]" started-at="2023-01-25T23:07:47 EST" name="SetUp" finished-at="2023-01-25T23:07:53 EST" duration-ms="6738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ValidateContactPageText()[pri:0, instance:com.crm.qa.testcases.ContactPageTest@7d3a22a9]" started-at="2023-01-25T23:07:53 EST" name="ValidateContactPageText" finished-at="2023-01-25T23:07:53 EST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateContactPageText -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.crm.qa.testcases.ContactPageTest@7d3a22a9]" started-at="2023-01-25T23:07:53 EST" name="TearDown" finished-at="2023-01-25T23:07:54 EST" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.ContactPageTest@7d3a22a9]" started-at="2023-01-25T23:07:54 EST" name="SetUp" finished-at="2023-01-25T23:07:59 EST" duration-ms="4528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ValidateContactPageTitleTest()[pri:0, instance:com.crm.qa.testcases.ContactPageTest@7d3a22a9]" started-at="2023-01-25T23:07:59 EST" name="ValidateContactPageTitleTest" finished-at="2023-01-25T23:07:59 EST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateContactPageTitleTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.crm.qa.testcases.ContactPageTest@7d3a22a9]" started-at="2023-01-25T23:07:59 EST" name="TearDown" finished-at="2023-01-25T23:07:59 EST" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.ContactPageTest@7d3a22a9]" started-at="2023-01-25T23:07:59 EST" name="SetUp" finished-at="2023-01-25T23:08:04 EST" duration-ms="4551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ValidateContactPageUrlTest()[pri:0, instance:com.crm.qa.testcases.ContactPageTest@7d3a22a9]" started-at="2023-01-25T23:08:04 EST" name="ValidateContactPageUrlTest" finished-at="2023-01-25T23:08:04 EST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateContactPageUrlTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.crm.qa.testcases.ContactPageTest@7d3a22a9]" started-at="2023-01-25T23:08:04 EST" name="TearDown" finished-at="2023-01-25T23:08:05 EST" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.crm.qa.testcases.ContactPageTest -->
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@6b26e945]" started-at="2023-01-25T23:08:05 EST" name="SetUp" finished-at="2023-01-25T23:08:13 EST" duration-ms="8037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VerifyTitlePageTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@6b26e945]" started-at="2023-01-25T23:08:13 EST" name="VerifyTitlePageTest" finished-at="2023-01-25T23:08:17 EST" duration-ms="4013" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[HomePage Title Not Match expected [Paanasonic eStore] but found [Panasonic eStore]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: HomePage Title Not Match expected [Paanasonic eStore] but found [Panasonic eStore]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at com.crm.qa.testcases.HomePageTest.VerifyTitlePageTest(HomePageTest.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitlePageTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@6b26e945]" started-at="2023-01-25T23:08:17 EST" name="TearDown" finished-at="2023-01-25T23:08:17 EST" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@6b26e945]" started-at="2023-01-25T23:08:17 EST" name="SetUp" finished-at="2023-01-25T23:08:25 EST" duration-ms="7904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VerifyCorrectUserNameTest()[pri:2, instance:com.crm.qa.testcases.HomePageTest@6b26e945]" started-at="2023-01-25T23:08:25 EST" name="VerifyCorrectUserNameTest" finished-at="2023-01-25T23:08:25 EST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCorrectUserNameTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@6b26e945]" started-at="2023-01-25T23:08:25 EST" name="TearDown" finished-at="2023-01-25T23:08:26 EST" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@6b26e945]" started-at="2023-01-25T23:08:26 EST" name="SetUp" finished-at="2023-01-25T23:08:34 EST" duration-ms="7807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="verifyContactsLinkTest()[pri:3, instance:com.crm.qa.testcases.HomePageTest@6b26e945]" started-at="2023-01-25T23:08:34 EST" name="verifyContactsLinkTest" finished-at="2023-01-25T23:08:34 EST" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsLinkTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@6b26e945]" started-at="2023-01-25T23:08:34 EST" name="TearDown" finished-at="2023-01-25T23:08:35 EST" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@6b26e945]" started-at="2023-01-25T23:08:35 EST" name="SetUp" finished-at="2023-01-25T23:08:43 EST" duration-ms="8001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="verifyDealsLinkTest()[pri:4, instance:com.crm.qa.testcases.HomePageTest@6b26e945]" started-at="2023-01-25T23:08:43 EST" name="verifyDealsLinkTest" finished-at="2023-01-25T23:08:46 EST" duration-ms="2874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDealsLinkTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@6b26e945]" started-at="2023-01-25T23:08:46 EST" name="TearDown" finished-at="2023-01-25T23:08:47 EST" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@6b26e945]" started-at="2023-01-25T23:08:47 EST" name="SetUp" finished-at="2023-01-25T23:08:55 EST" duration-ms="8499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="verifyStoreLinkTest()[pri:5, instance:com.crm.qa.testcases.HomePageTest@6b26e945]" started-at="2023-01-25T23:08:55 EST" name="verifyStoreLinkTest" finished-at="2023-01-25T23:08:55 EST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStoreLinkTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@6b26e945]" started-at="2023-01-25T23:08:55 EST" name="TearDown" finished-at="2023-01-25T23:08:56 EST" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@63a65a25]" started-at="2023-01-25T23:08:56 EST" name="SetUp" finished-at="2023-01-25T23:08:59 EST" duration-ms="2696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LgnPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@63a65a25]" started-at="2023-01-25T23:08:59 EST" name="LgnPageTitleTest" finished-at="2023-01-25T23:08:59 EST" duration-ms="7" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Loogin - Panasonic eStore] but found [Login - Panasonic eStore]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Loogin - Panasonic eStore] but found [Login - Panasonic eStore]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.crm.qa.testcases.LoginPageTest.LgnPageTitleTest(LoginPageTest.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LgnPageTitleTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@63a65a25]" started-at="2023-01-25T23:08:59 EST" name="TearDown" finished-at="2023-01-25T23:08:59 EST" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@63a65a25]" started-at="2023-01-25T23:08:59 EST" name="SetUp" finished-at="2023-01-25T23:09:02 EST" duration-ms="2581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LgnPagelogoTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@63a65a25]" started-at="2023-01-25T23:09:02 EST" name="LgnPagelogoTest" finished-at="2023-01-25T23:09:02 EST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LgnPagelogoTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@63a65a25]" started-at="2023-01-25T23:09:02 EST" name="TearDown" finished-at="2023-01-25T23:09:03 EST" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@63a65a25]" started-at="2023-01-25T23:09:03 EST" name="SetUp" finished-at="2023-01-25T23:09:06 EST" duration-ms="3662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LoginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@63a65a25]" started-at="2023-01-25T23:09:06 EST" name="LoginTest" finished-at="2023-01-25T23:09:12 EST" duration-ms="5322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@63a65a25]" started-at="2023-01-25T23:09:12 EST" name="TearDown" finished-at="2023-01-25T23:09:12 EST" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+      <class name="com.crm.qa.testcases.ProductRegisterTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.crm.qa.testcases.ProductRegisterTest@54c562f7]" started-at="2023-01-25T23:09:13 EST" name="Setup" finished-at="2023-01-25T23:09:18 EST" duration-ms="5192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="RegisterProductTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.crm.qa.testcases.ProductRegisterTest@54c562f7]" started-at="2023-01-25T23:09:18 EST" name="RegisterProductTest" data-provider="getTestData" finished-at="2023-01-25T23:09:21 EST" duration-ms="3152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[L45NR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10/11/2022]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dealer1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterProductTest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.crm.qa.testcases.ProductRegisterTest@54c562f7]" started-at="2023-01-25T23:09:21 EST" name="Teardown" finished-at="2023-01-25T23:09:22 EST" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.crm.qa.testcases.ProductRegisterTest@54c562f7]" started-at="2023-01-25T23:09:22 EST" name="Setup" finished-at="2023-01-25T23:09:27 EST" duration-ms="5171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="RegisterProductTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.crm.qa.testcases.ProductRegisterTest@54c562f7]" started-at="2023-01-25T23:09:27 EST" name="RegisterProductTest" data-provider="getTestData" finished-at="2023-01-25T23:09:30 EST" duration-ms="2805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A10625]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10/11/2021]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dealer2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterProductTest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.crm.qa.testcases.ProductRegisterTest@54c562f7]" started-at="2023-01-25T23:09:30 EST" name="Teardown" finished-at="2023-01-25T23:09:31 EST" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.crm.qa.testcases.ProductRegisterTest@54c562f7]" started-at="2023-01-25T23:09:31 EST" name="Setup" finished-at="2023-01-25T23:09:36 EST" duration-ms="5255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="RegisterProductTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.crm.qa.testcases.ProductRegisterTest@54c562f7]" started-at="2023-01-25T23:09:36 EST" name="RegisterProductTest" data-provider="getTestData" finished-at="2023-01-25T23:09:39 EST" duration-ms="2800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C-7052]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10/10/2022]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dealer3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterProductTest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.crm.qa.testcases.ProductRegisterTest@54c562f7]" started-at="2023-01-25T23:09:39 EST" name="Teardown" finished-at="2023-01-25T23:09:39 EST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.crm.qa.testcases.ProductRegisterTest@54c562f7]" started-at="2023-01-25T23:09:39 EST" name="Setup" finished-at="2023-01-25T23:09:45 EST" duration-ms="5310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyRegisteredProduct()[pri:2, instance:com.crm.qa.testcases.ProductRegisterTest@54c562f7]" started-at="2023-01-25T23:09:45 EST" name="VerifyRegisteredProduct" finished-at="2023-01-25T23:09:50 EST" duration-ms="5716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisteredProduct -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.crm.qa.testcases.ProductRegisterTest@54c562f7]" started-at="2023-01-25T23:09:50 EST" name="Teardown" finished-at="2023-01-25T23:09:51 EST" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.crm.qa.testcases.ProductRegisterTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

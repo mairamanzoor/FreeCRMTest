@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 125.087 s <<< FAILURE! - in TestSuite
+VerifyTitlePageTest(com.crm.qa.testcases.HomePageTest)  Time elapsed: 4.02 s  <<< FAILURE!
+java.lang.AssertionError: HomePage Title Not Match expected [Paanasonic eStore] but found [Panasonic eStore]
+	at com.crm.qa.testcases.HomePageTest.VerifyTitlePageTest(HomePageTest.java:44)
+
+LgnPageTitleTest(com.crm.qa.testcases.LoginPageTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: expected [Loogin - Panasonic eStore] but found [Login - Panasonic eStore]
+	at com.crm.qa.testcases.LoginPageTest.LgnPageTitleTest(LoginPageTest.java:28)
+
