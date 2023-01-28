@@ -52,8 +52,9 @@ public class ProductRegisterTest extends TestBase {
 		return data;
 	}
 	@Test(priority=1,dataProvider="getTestData")
-	public void RegisterProductTest(String modelnumber, String purchasedate, String dealername) {
+	public void RegisterProductTest(String modelnumber, String purchasedate, String dealername) throws InterruptedException {
 		pr.RegisterProduct(modelnumber, purchasedate, dealername);//getting values from excel sheet by dataprovider
+		Thread.sleep(2000);
 	}
 	@Test(priority=2)
 	public void VerifyRegisteredProduct() {
