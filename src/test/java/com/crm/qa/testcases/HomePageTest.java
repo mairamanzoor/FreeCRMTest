@@ -41,7 +41,7 @@ public class HomePageTest extends TestBase {
 	public void VerifyTitlePageTest() throws InterruptedException {
 		Thread.sleep(4000);
 		String title=hp.VerifyHomaepageTitle();
-		Assert.assertEquals(title,"Paanasonic eStore","HomePage Title Not Match");//Message will be printed only if only the assert is failed
+		Assert.assertEquals(title,"Panasonic eStore","HomePage Title Not Match");//Message will be printed only if only the assert is failed
 	}
 	@Test(priority=2)
 	public void VerifyCorrectUserNameTest(){	

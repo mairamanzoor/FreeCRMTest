@@ -7,16 +7,19 @@ import java.time.Duration;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
+
 import com.crm.qa.util.TestUtil;
 import com.crm.qa.util.WebEventListener;
 
 public class TestBase {
+	public static Logger log = Logger.getLogger(TestBase.class);
 	public static WebDriver driver;
 	public static Properties prop;//global variable can be used inside all classes
 	public  static EventFiringWebDriver e_driver;
@@ -35,6 +38,8 @@ public class TestBase {
 
 	public static void initialization() {
 		// FOR GETTING BROWSER
+		  log.info("****************************** Starting test cases execution  *****************************************");
+		
 		String browserName=prop.getProperty("browser");
 		System.out.println(browserName);
 		if(browserName.equals("firefox")) {
@@ -60,6 +65,10 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT,TimeUnit.SECONDS);
 		
 		driver.get(prop.getProperty("url"));//login page url which is defined in config file
+	    log.info("entering application URL");
+				log.warn("Hey this just a warning message");
+				log.fatal("hey this is just fatal error message");
+				log.debug("this is debug message");
 		 
 	}
 
